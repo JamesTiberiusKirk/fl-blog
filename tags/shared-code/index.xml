@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shared-code on Micro-Services Honours Project</title>
-    <link>https://jamestiberiuskirk.github.io/fitness-logger/tags/shared-code/</link>
+    <link>https://jamestiberiuskirk.github.io/fl-blog/tags/shared-code/</link>
     <description>Recent content in shared-code on Micro-Services Honours Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 05 Dec 2020 05:32:36 +0000</lastBuildDate>
     
-        <atom:link href="https://jamestiberiuskirk.github.io/fitness-logger/tags/shared-code/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://jamestiberiuskirk.github.io/fl-blog/tags/shared-code/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Setting Up Shared Code Library</title>
-      <link>https://jamestiberiuskirk.github.io/fitness-logger/posts/setting-up-shared-code-and-boilerplates/</link>
+      <link>https://jamestiberiuskirk.github.io/fl-blog/posts/setting-up-shared-code-and-boilerplates/</link>
       <pubDate>Sat, 05 Dec 2020 05:32:36 +0000</pubDate>
       
-      <guid>https://jamestiberiuskirk.github.io/fitness-logger/posts/setting-up-shared-code-and-boilerplates/</guid>
+      <guid>https://jamestiberiuskirk.github.io/fl-blog/posts/setting-up-shared-code-and-boilerplates/</guid>
       <description>&lt;p&gt;So I have finally stated to setup the boilerplate code which will be used in this project&amp;rsquo;s shared code. So far I am just looking at setting up the base npm mopdule with one placeholder function. My plan is also setup and use GitHub&amp;rsquo;s package system which allows you to publish npm packages.&lt;/p&gt;
 &lt;p&gt;The few things I would like to setup for this sub project would be:&lt;/p&gt;
 &lt;ul&gt;
@@ -48,10 +48,10 @@ npm link @jamestiberiuskirk/fl-shared &lt;span class=&#34;c1&#34;&gt;#inside the
     
     <item>
       <title>About</title>
-      <link>https://jamestiberiuskirk.github.io/fitness-logger/about/</link>
+      <link>https://jamestiberiuskirk.github.io/fl-blog/about/</link>
       <pubDate>Tue, 01 Dec 2020 16:22:30 +0000</pubDate>
       
-      <guid>https://jamestiberiuskirk.github.io/fitness-logger/about/</guid>
+      <guid>https://jamestiberiuskirk.github.io/fl-blog/about/</guid>
       <description>&lt;p&gt;Hi, my name is Dumitru Vulpe. This blog is for cataloging my journey through developing my 4th year (at university) honours project. The honours project consists of a frontend app for logging workouts and a micro-services based backend.&lt;/p&gt;
 &lt;p&gt;The challenge for me here is to learn how to create a backend which utilizes micro-services. So far my knowledge consists of just general full stack web development. I have not done any serious mobile development (apart from using Ionic for an internship) and I only knew some basic micro-services concepts and did not have any prior knowledge of technologies to be used.&lt;/p&gt;
 &lt;p&gt;So this blog is just meant to be a timeline of my journey and a good way to log all my steps which will come in useful for the final report.&lt;/p&gt;
@@ -60,10 +60,10 @@ npm link @jamestiberiuskirk/fl-shared &lt;span class=&#34;c1&#34;&gt;#inside the
     
     <item>
       <title>Service meshes, Node modules and more</title>
-      <link>https://jamestiberiuskirk.github.io/fitness-logger/posts/01-12-2020/</link>
+      <link>https://jamestiberiuskirk.github.io/fl-blog/posts/01-12-2020/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jamestiberiuskirk.github.io/fitness-logger/posts/01-12-2020/</guid>
+      <guid>https://jamestiberiuskirk.github.io/fl-blog/posts/01-12-2020/</guid>
       <description>&lt;p&gt;Service meshes and Linkerd specifically seems to be nice and really useful. However, at the moment I will not be using it because I have not even started to use Kubernates. The nice part is that all of this is just setting up the proxies on the k8s cluster and no need to do anything in code. I will definitely be coming back to this at a later stage.&lt;/p&gt;
 &lt;p&gt;My next step will be to look into Kubernates, just not sure if I should do that before or after I have code running or not.&lt;/p&gt;
 &lt;p&gt;Meanwhile I can think about how to structure the project. Since I will have multiple code-bases, I most likely have some commonly shared code; stuff like custom data structures, maybe some generic libraries for interfacing with databases, etc. I am wanting to make a separate &amp;lsquo;shared&amp;rsquo; node modules project which will be imported into all the services. Will just need to look into any conventions of how this would be done. However fow now this might not actually be needed.&lt;/p&gt;
@@ -76,10 +76,10 @@ npm link @jamestiberiuskirk/fl-shared &lt;span class=&#34;c1&#34;&gt;#inside the
     
     <item>
       <title>Getting familiar with typescript and kafkajs</title>
-      <link>https://jamestiberiuskirk.github.io/fitness-logger/posts/30-11-2020/</link>
+      <link>https://jamestiberiuskirk.github.io/fl-blog/posts/30-11-2020/</link>
       <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jamestiberiuskirk.github.io/fitness-logger/posts/30-11-2020/</guid>
+      <guid>https://jamestiberiuskirk.github.io/fl-blog/posts/30-11-2020/</guid>
       <description>&lt;p&gt;Yesterday I did not get the chance to properly setup a kafka connection with typescript. I kept encountering problems, laster on even was getting some tsc build problems with kafka-nodes source. Upon closer inspection, kafka-node has not been maintained for at least a year. Because of that I decided to switch away and to kafkajs, it seems to still be in development and also has builtin types which I can just read. I guess that it the price to pay for not using an &amp;ldquo;officially supported language&amp;rdquo; and having to rely on community libraries.&lt;/p&gt;
 &lt;h1 id=&#34;resources-used&#34;&gt;Resources used&lt;/h1&gt;
 &lt;ul&gt;
@@ -90,10 +90,10 @@ npm link @jamestiberiuskirk/fl-shared &lt;span class=&#34;c1&#34;&gt;#inside the
     
     <item>
       <title>First Entry</title>
-      <link>https://jamestiberiuskirk.github.io/fitness-logger/posts/first-entry/</link>
+      <link>https://jamestiberiuskirk.github.io/fl-blog/posts/first-entry/</link>
       <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jamestiberiuskirk.github.io/fitness-logger/posts/first-entry/</guid>
+      <guid>https://jamestiberiuskirk.github.io/fl-blog/posts/first-entry/</guid>
       <description>&lt;p&gt;Today I am finally getting started with development. So far it will just be getting familiar with using some of the technologies that I will be using. Today it&amp;rsquo;s kafka.&lt;/p&gt;
 &lt;p&gt;I have started by locally deploying a kafka stack on my local machine using docker-compose with Zookeeper and using Conduktor as a gui client for kafka.&lt;/p&gt;
 &lt;p&gt;So far I have just done this in javascript. Will get this done in typescript too.&lt;/p&gt;
